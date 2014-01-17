@@ -1,0 +1,164 @@
+/*Reset*/
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+}
+input{
+	
+	border:none;
+}
+ul{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+input,select,option{
+	outline:0;
+	border:0;
+}
+a{
+    text-decoration: none;
+}
+
+/*HTML5*/
+header, article, nav, footer, section{
+   display:block;
+}
+
+/*Fonts*/
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=cyrillic,cyrillic-ext);
+
+
+/*General*/
+html, body{
+	height:100%;
+}
+body{
+	background:#F5F5F5;
+	font: 14px 'PT Sans', sans-serif;
+}
+
+
+/*--------------Calculator style----------*/
+/*
+//
+*/
+
+#calculator{
+	font-family: 'Chivo', sans-serif;
+	font-weight: bold;
+	background: #222;
+	width:314px;
+	overflow: hidden;
+	margin: 50px auto;
+	border: 3px solid rgb(54, 54, 54)
+}
+#calculator #display-mini,
+#calculator #display{
+	background: #222;
+}
+#calculator #display input[type="text"]{
+	background: transparent;
+	outline: none;
+	color: #FFF;
+	border: none;
+	text-align: right;
+	width: 93%;
+	padding: 5px 0;
+	font-size: 34px;
+}
+#calculator #display-mini input[type="text"]{
+	background: transparent;
+	outline: none;
+	color: #FFF;
+	font-weight: bold;
+	border: none;
+	text-align: right;
+	width: 93%;
+	letter-spacing: 0.5px;
+	padding: 7px 0 0 0;
+	font-size: 14px;
+}
+#calculator #input-cal{
+	width: 315px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #FFF;
+}
+#calculator .colum-big{
+  float:left;
+  width:126px;
+}
+#calculator .colum{
+  float:left;
+  width:63px;
+}
+#calculator .wrapper-block{
+  width: 62px;
+  height: 60px;
+  position: relative;
+  margin-top: 1px;
+  line-height:60px;
+}
+#calculator .full-width{
+	width: 99.5%;
+	border-right: 1px solid transparent;
+}
+#calculator .wrapper-block input[type="button"]{
+  opacity: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  cursor: pointer;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+#calculator .colum-big .full-width .fact-value{
+  background: rgb(255, 102, 0) !important;
+  font-weight: normal;
+}
+#calculator .colum-big .full-width:hover .fact-value{
+  background: rgb(255, 41, 0) !important;
+}
+#calculator .wrapper-block .fact-value, 
+#calculator .wrapper-block #dec{
+  display: block;
+  text-align: center;
+  color: #222;
+  text-align: center;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  background: rgb(223, 223, 223);
+  transition:0.2s;
+}
+#calculator .wrapper-block:hover .fact-value, 
+#calculator .wrapper-block:hover #dec{      
+  background: rgb(238,238,238);
+  transition:0.2s;
+  box-shadow: inset 1px 1px 1px rgba(0,0,0, .15),
+              inset -1px -1px 1px rgba(0,0,0, .15);
+}
+#calculator .wrapper-block.operation .fact-value{
+  background: rgb(143,200,0);
+  font-size:24px;
+}
+#calculator .wrapper-block.operation:hover .fact-value{
+  background: rgb(154, 211, 11);
+  box-shadow: inset 1px 1px 1px rgba(0,0,0, .15),
+              inset -1px -1px 1px rgba(0,0,0, .15);
+  transition:0.2s;
+  color:#FFF;
+ }
+ #calculator .wrapper-block .fact-value sup{
+  font-size:14px;
+ }
+ #calculator .wrapper-block .fontOth{
+ 	font-size:18px !important;
+ }
+/*--------------END Calculator style----------*/
