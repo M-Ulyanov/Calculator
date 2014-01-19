@@ -110,7 +110,7 @@ body{
 }
 #calculator .wrapper-block input[type="button"]{
   opacity: 0;
-  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
   cursor: pointer;
   position: absolute;
   padding: 0;

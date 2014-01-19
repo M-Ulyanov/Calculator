@@ -179,19 +179,19 @@ $(function(){
 		{
 			num = true;
 			if ('+' === op){
-				console.log(current += parseFloat(display.val()));
+				current += parseFloat(display.val());
 				display.val(current)
 			}
 			else if ('-' === op){
-				console.log(current -= parseFloat(display.val()));
+				current -= parseFloat(display.val());
 				display.val(current)
 			}
 			else if ('*' === op){
-				console.log(current *= parseFloat(display.val()));
+				current *= parseFloat(display.val());
 				display.val(current)
 			}
 			else if ('/' === op){
-				console.log(current /= parseFloat(display.val()));
+				current /= parseFloat(display.val());
 				display.val(current)
 			}
 			else
