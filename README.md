@@ -19,4 +19,4 @@ Calculator v1
 
 ##Пример работы
 
-Можно посмотреть <a href="http://example.web-ulyanov.ru/fronted/Calculator/">Здесь</a>
+Можно посмотреть <a href="http://example.web-ulyanov.ru/frontend/Calculator/">Здесь</a>
